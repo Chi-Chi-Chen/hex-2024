@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+/* base */
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: solid 1px; */
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+img {
+  height: auto;
+  vertical-align: middle;
+}
+
+/* layout */
+.header {
+  background: #000;
+  color: #D1D1D1;
+  padding: 52px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* component */
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.btn-light {
+  background: white;
+  color: #000;
+}
+
+.btn-dark {
+  background: black;
+  color: white;
+}
+
+/* page */
+.banner {
+  background: #000;
+  color: white;
+}
+
+.intro {
+  background-image: url(img/background-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.intro-desc {
+  width: 526px;
+}
+
+.about-list {
+  width: 636px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-list li {
+  width: calc(50% - 12px);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(227, 227, 227, 1);
+  padding: 16px;
+}
+
+.about-desc {
+  width: 526px;
+}
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  padding: 96px;
+}
+
+.contact-desc img {
+  width: 100px;
+  height: 100px;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.social-link {
+  border-radius: 40px;
+  transition: 1s;
+}
+
+.social-link:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+}
+
+.project-title {
+  width: 746px;
+  margin-left: auto;
+}
+
+.bottom{
+  background: black;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.bottom p{
+  color: white;
+}
+
+/* utils */
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 128px;
+}
+
+.h2 {
+  font-size: 64px;
+}
+
+.fs-1 {
+  font-size: 32px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.text-primary {
+  color: #00ffa3;
+}
+
+.mr-4 {
+  margin-right: 16px;
+}
+
+.mr-5 {
+  margin-right: 20px;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}
+
+.mb-1 {
+  margin: 4px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-7{
+  margin-bottom: 28px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.py-40 {
+  padding: 160px 0;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: start;
+}
